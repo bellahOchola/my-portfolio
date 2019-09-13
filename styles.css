@@ -21,3 +21,39 @@ a:hover{
     background-size:cover;
     height:768px;
 }
+
+.para{
+    margin-top:100px;
+    text-align:center;
+}
+
+#skills{
+    width:500px;
+    height:300px;
+    background-color:w;
+    margin-left:400px;
+    border-radius:4px;
+    border:1px solid grey;
+    box-shadow:2px 2px 5px grey;
+
+}
+
+#skills p{
+    color:black;
+    margin-bottom:0;
+    padding:10px;
+}
+
+.main{
+    width:400px;
+    height:20px;
+    background-color:grey;
+    margin-left:10px;
+    border-radius:4px;
+}
+
+#in{
+    width:300px;
+    height:20px;
+    background-color:blue;
+}

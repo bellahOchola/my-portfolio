@@ -52,9 +52,9 @@ a:hover{
     border-radius:4px;
 }
 
-/* #in{
-    /* width:300px;
-    height:20px; */
-    /* background-color:blue;
-     */
-} */
+.icon{
+    margin-top:100px;
+    border:1px solid grey;
+    width:30%;
+    text-align:center;
+}

@@ -71,3 +71,28 @@ a:hover{
     margin-top:100px;
     text-align:center;
 }
+/* styling bars */
+.bar{
+    width:80%;
+    height: 20px;
+    background-color:grey;
+    border-radius: 10px;
+}
+#level{
+    width: 70%;
+    height: 20px;
+    background-color:blue;
+    border-radius: 10px;
+    animation: movehtml 3s;
+}
+@keyframes movehtml {
+    0%{
+        width:0%;
+    }
+    50%{
+        width:40%;
+    }
+    100%{
+        width: 70%;
+    }
+}

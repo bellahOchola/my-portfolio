@@ -57,10 +57,10 @@ a:hover{
     border:1px solid grey;
     width:30%;
     text-align:center;
-    padding:20px;
+    margin-right:20px;
 }
 
 .all{
     display:flex;
-    justify-content: center;
+    justify-content:center;
 }

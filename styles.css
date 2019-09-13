@@ -53,7 +53,7 @@ a:hover{
 }
 
 .icon{
-    margin-top:100px;
+    /* margin-top:100px; */
     border:1px solid grey;
     box-shadow: 2px 2px 5px grey;
     width:30%;
@@ -65,4 +65,9 @@ a:hover{
 .all{
     display:flex;
     justify-content:center;
+}
+
+.header{
+    margin-top:100px;
+    text-align:center;
 }

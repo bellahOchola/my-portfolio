@@ -206,6 +206,13 @@ input{
 
 .mat{
     margin-left:60%;
-    margin-top:-450px;
+    margin-top:-350px;
     
+}
+
+hr{
+    width:300px;
+    color:grey;
+    /* margin-left:70px; */
+
 }

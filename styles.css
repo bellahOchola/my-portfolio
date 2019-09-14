@@ -151,3 +151,24 @@ a:hover{
         width: 90%;
     }
 }
+
+.icon a{
+    text-decoration:none;
+    color:black;
+}
+
+button{
+    width:80px;
+    height:30px;
+    border-radius: 8px;
+    margin-bottom:20px;
+    background-color:blue;
+}
+
+.icon a:hover{
+    color:white;
+}
+
+.icon img{
+    margin-top:20px;
+}

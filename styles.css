@@ -173,13 +173,14 @@ button{
 }
 
 /* styling contacts section */
-.cont h2{
-    margin-top:50px;
-}
 
 .cont{
     width:100%;
     height:500px;
     background-color:#17324D;
     margin-top: 100px;
+}
+
+#text{
+    margin-left:150px;
 }

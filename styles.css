@@ -184,3 +184,10 @@ button{
 #text{
     margin-left:150px;
 }
+
+input{
+    width:300px;
+    height:20px;
+    border-radius:5px;
+    border:none;
+}

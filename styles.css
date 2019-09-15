@@ -1,5 +1,5 @@
 nav{
-    position:static;
+    /* position:fixed; */
 }
 
 nav>ul>li{
@@ -74,6 +74,7 @@ a:hover{
     background-color:grey;
     border-radius: 10px;
 }
+
 #level{
     width: 80%;
     height: 20px;
@@ -92,6 +93,7 @@ a:hover{
         width: 80%;
     }
 }
+
 #two{
     width: 90%;
     height:20px;
@@ -129,6 +131,7 @@ a:hover{
         width: 70%;
     }
 }
+
 #four{
     width: 90%;
     height:20px;
@@ -213,22 +216,48 @@ input{
 hr{
     width:300px;
     color:grey;
-    /* margin-left:70px; */
-
 }
 
 /* media queries */
 
-@media screen and (min-width: 480px){
-    nav{
+@media screen and (max-width: 480px){
+    nav>ul>li{
         display:flex;
-        flex-direction:column;
+        flex-direction:row;
     }
 
     .first{
-        width:100%;
+        background-size: 70% 100%;
+    }
+    nav>ul>li>a{
+        padding:10px;
+        
+    }
+    
+    .para{
+        text-align:left;
+    }
+    
+    #skills{
+        margin-left:0px;
     }
 
-    
+    .all{
+        display:flex;
+        flex-direction:column;
+        padding:50px;
     }
+    
+    .mat{
+        display:none;
+    }
+
+    #text{
+        margin-left:0px;
+    }
+
+    .cont{
+        width:70%;
+    }
+
 }

@@ -1,93 +1,281 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>my-portfolio</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#works">Works</a></li>
-                <li><a href="#contacts">Contacts</a></li>
-            </ul>
-        </nav>
-        <div class="first" id="home"> 
-        </div>
-        <div class="para" id="about">
-            <h2>About me</h2>
-            <p>I'm christabel Ochola.</p>
-            <p>I have always had a passion for web and  mobile app development. I previously pursued a Degree in Information technology.</p>
-            <p>I decided to pursue this course cause I believe its going too increase the knowledge that i have in software development.</p>
-            <p>I am a humble and straightforward person.</p>
-            <p>I love Travelling and Coding.</p>
-            <p>I also do some free-lancing work.</p>
-            <p>I can manouver around with HTML, CSS<br>Javascript and Java.</p>
-        </div>
-        <div id="skills">
-            <p>Javascript</p>
-            <div class="bar"><div id="level" ></div>
-            </div>
-            <p>HTML/CSS</p>
-            <div class="bar"><div id="two"></div>
-            </div>
-            <p>Java</p>
-            <div class="bar"><div id="three" ></div>
-            </div>
-            <p>Commandline/Git</p>
-            <div class="bar"><div id="four"></div>
-            </div>
-        </div>
-            <!-- <div class="bar"><div id="level"></div></div> -->
-        <div id="works">
-            <h2 class="header">Recent works</h2>
-            <div class="all">
-                <div class="icon">
-                    <img src="https://cdn.dribbble.com/users/161397/screenshots/1459753/robinhood_glyph.jpg" width="80" height="80">
-                    <p>This was my very first website.<br>Its about investment firms.<br>It enables people invest their cash into stocks<br>and bonds of companies of their choice.<br>I incorporated HTML and CSS</p><br>
-                    <button><a href="https://bellahochola.github.io/Robinhood/" target="_blank">View more</a></button>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <title>Bellah's portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="vendors/linericon/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+    <link rel="stylesheet" href="vendors/animate-css/animate.css">
+    <link rel="stylesheet" href="vendors/flaticon/flaticon.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!--================Header Menu Area =================-->
+    <header class="header_area">
+        <div class="main_menu" id="mainNav">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container box_1620">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav menu_nav ml-auto">
+                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="services.html">Services</a>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="icon">
-                    <img src="https://tenggol.com.my/wp-content/uploads/2016/10/Resort-icon.png" width="80" height="80">
-                    <p>The very next website i made</br> It's for a private resort</br>It enables customers to have a look n feel of what<br>the resort offers and its location</br>I incoporated both HTML and CSS</p><br>
-                    <button><a href="https://bellahochola.github.io/resort/" target="_blank">View more</a></button>
+            </nav>
+        </div>
+    </header>
+    <!--================Header Menu Area =================-->
+
+    <!--================Home Banner Area =================-->
+    <section class="home_banner_area">
+        <div class="banner_inner">
+            <!-- <div class="container"> -->
+                <img src="https://cdn.pixabay.com/photo/2016/11/18/12/55/office-1834294_960_720.jpg" width="100%" height="400px" alt=""
+                    style="">
+        </div>
+    </section>
+    <!--================End Home Banner Area =================-->
+
+    <!--================Welcome Area =================-->
+    <section class="welcome_area p_120">
+        <div class="container">
+            <div class="row welcome_inner">
+                <div class="col-lg-6">
+                    <div class="welcome_text">
+                        <h4>About Myself</h4>
+                        <p>I have had an immense passion for writing code ever since I cleared high school that is why I enrolled at Moringa School.
+                             I was able to gain knowledge and expertise in various programming languages such as Javascript, Python and their respective frameworks(Angular,  Flask, and Django). While at Moringa School,  I was able to develop a couple of applications one of them being an eCommerce site that enables users to purchase clothes online. Moreover, since Moringa School was a Bootcamp with learners expected to have a high speed of learning,  I was able to be a good time manager, a team player and above all my communication skills immensely improved. </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="tools_expert">
+                        <h3>Tools Expertness</h3>
+                        <div class="skill_main">
+                            <div class="skill_item">
+                                <h4>Javascript <span class="counter">85</span>%</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill_item">
+                                <h4>Python <span class="counter">90</span>%</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill_item">
+                                <h4>JQuery <span class="counter">70</span>%</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill_item">
+                                <h4>Bootstrap <span class="counter">95</span>%</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill_item">
+                                <h4>git <span class="counter">75</span>%</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div id="contacts">
-            <!-- <h2>For more information you can contact me</h2> -->
-            <div class="cont">
-                <div id="text"><br><br><br>
-                    <h2>CONTACT US</h2>
-                    <p>I am happy to answer any questions you have and provide you with an estimate.<br>Just send me in the form below with any questions you may have. </p>
-                    <form>
-                        Name:<br>
-                        <input type="text" name="name"><br><br>
-                        Email:<br>
-                        <input type="text" name="email"><br><br>
-                        Company/Project:<br>
-                        <input type="text" name="company"><br><br>
-                        Message:<br>
-                        <input class="l" type="text" name="message"><br><br><br>
-                        <input class="sub" type="submit" value="Send">
-                    </form>
+    </section>
+    <!--================End Welcome Area =================-->
+
+    <!--================Feature Area =================-->
+    <section class="feature_area p_120">
+        <div class="container">
+            <div class="main_title">
+                <h2>SERVICES</h2>
+                <p>Below are some of the services that I render.</p>
+            </div>
+            <div class="feature_inner row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="feature_item">
+                        <i class="flaticon-city"></i>
+                        <h4>Web Design</h4>
+                        <p>A one year experience in front-end design of applications using the relevant technologies ie. Bootstrap, CSS3. </p>
+                    </div>
                 </div>
-                <div class="mat">
-                    EMAIL<br><br>
-                    bellahkenya@gmail.com<br><br>
-                    <hr><br>
-                    PHONE<br><br>
-                    +254706404301<br><br>
-                    <hr><br>
-                    ON THE WEB<br><br>
-                    Pinterest|Instagram|Twitter<br><br>
-                    <hr>
+                <div class="col-lg-6 col-md-6">
+                    <div class="feature_item">
+                        <i class="flaticon-skyline"></i>
+                        <h4>Web Applications</h4>
+                        <p>Developed and hosted a couple of applications. Vast experience in Javascript and Python.  </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--================End Feature Area =================-->
+
+    <!--================Projects Area =================-->
+    <section class="projects_area p_120">
+        <div class="container">
+            <div class="main_title">
+                <h2>MY WORKS</h2>
+                <p>Sample projects that showcase my capabilities.</p>
+            </div>
+            <div class="projects_inner row">
+                <div class="col-lg-4 col-sm-6 brand web">
+                    <div class="projects_item">
+                        <img class="img-fluid" src="img/clothline.png" style="height: 300px;" alt="">
+                        <div class="projects_text">
+                            <a href="https://neuroneclothline.herokuapp.com/">
+                                <h4>Clothline</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 brand work">
+                    <div class="projects_item">
+                        <img class="img-fluid" src="img/hoodwatch.png" style="height: 300px;" alt="">
+                        <div class="projects_text">
+                            <a href="https://hoodwatchtracker.herokuapp.com/">
+                                <h4>Hood Tracker</h4>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 work">
+                    <div class="projects_item">
+                        <img class="img-fluid" src="img/pizza.png" alt="" style="height: 300px;">
+                        <div class="projects_text">
+                            <a href='https://bellahochola.github.io/pizza-deliciosa/'>
+                                <h4>Pizza</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+               
+    </section>
+    <!--================End Projects Area =================-->
+
+    <!--================Footer Area =================-->
+    <footer class="footer_area p_120">
+        <div class="container">
+            <div class="row footer_inner">
+                <div class="col-lg-5 col-sm-6">
+                    <aside class="f_widget ab_widget">
+                        <div class="f_title">
+                            <h3>About Me</h3>
+                        </div>
+                        <p>Full-stack Web Developer | Web Designer</p>
+                        <p>
+                                                        Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved |
+                            
+                        </p>
+                    </aside>
+                </div>
+                <div class="col-lg-5 col-sm-6">
+                    <aside class="f_widget news_widget">
+                        <div class="f_title">
+                            <h3>Newsletter</h3>
+                        </div>
+                        <p>Stay updated with my latest trends</p>
+                        <div id="mc_embed_signup">
+                            <form target="_blank"
+                                action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                                method="get" class="subscribe_form relative">
+                                <div class="input-group d-flex flex-row">
+                                    <input name="EMAIL" placeholder="Enter email address"
+                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '"
+                                        required="" type="email">
+                                    <button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
+                                </div>
+                                <div class="mt-10 info"></div>
+                            </form>
+                        </div>
+                    </aside>
+                </div>
+                <div class="col-lg-2">
+                    <aside class="f_widget social_widget">
+                        <div class="f_title">
+                            <h3>Follow Me</h3>
+                        </div>
+                        <p>Let us be social</p>
+                        <ul class="list">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/christabel-ochola/"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </aside>
                 </div>
             </div>
         </div>
-    </body>
+    </footer>
+    <!--================End Footer Area =================-->
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/isotope/isotope-min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+    <script src="vendors/counter-up/jquery.counterup.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <!--gmaps Js-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+    <script src="js/gmaps.min.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+
 </html>
+
+
+
+
+
+
+
+                
